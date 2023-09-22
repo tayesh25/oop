@@ -11,6 +11,5 @@ public class restaurantOrder {
     void serving() {
 
     }
-
 }
 
