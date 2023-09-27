@@ -37,11 +37,14 @@
         System.out.println("hello ladies and gentlemen what can i do for you today");
 
     }
-    void Pricedelaration(){
-        System.out.println("that will be $" + price);
+     void response(int x, String y) {
+         System.out.println(" i will bring that "+ y + " out for you in " + x + " minutes");
+     }
+     void Pricedelaration(int x){
+        System.out.println("that will be $" + x);
     }
-    void serving() {
-        System.out.println("here is your "+ dish.getName());
+    void serving(String x) {
+        System.out.println("here is your "+ x);
     }
 }
 

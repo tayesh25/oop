@@ -54,6 +54,6 @@
      }
 
      void Description(){
-    System.out.println("this dish is " + description);
+    System.out.println( name + " is " + description);
     }
 }
