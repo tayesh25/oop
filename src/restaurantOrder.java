@@ -1,20 +1,23 @@
- class restaurantOrder {
-   private Dish dish;
+//Keith
+import java.util.ArrayList;
+
+class restaurantOrder {
+    private ArrayList<Dish> Dish;
    private int price;
    private int prepTime;
 
-     public restaurantOrder(Dish dish, int price, int prepTime) {
-         this.dish = dish;
+     public restaurantOrder(int price, int prepTime) {
+         this.Dish = new ArrayList <Dish>();
          this.price = price;
          this.prepTime = prepTime;
      }
 
-     public Dish getDish() {
-         return dish;
+     public Dish getDishNumber(int number) {
+         return this.Dish.get(number);
      }
 
-     public void setDish(Dish dish) {
-         this.dish = dish;
+     public void addDish(Dish newDish) {
+         this.Dish.add(newDish);
      }
 
      public int getPrice() {
@@ -37,8 +40,8 @@
         System.out.println("hello ladies and gentlemen what can i do for you today");
 
     }
-     void response(int x, String y) {
-         System.out.println(" i will bring that "+ y + " out for you in " + x + " minutes");
+     void response() {
+         Dish.forEach((Dish) -> System.out.println(" i will bring that "+ Dish.getName() + " out for you in " + Dish.getCookTime() + " minutes"));
      }
      void Pricedelaration(int x){
         System.out.println("that will be $" + x);
@@ -46,5 +49,10 @@
     void serving(String x) {
         System.out.println("here is your "+ x);
     }
+
+    public String toString() {
+        return (null);
+    }
+
 }
 

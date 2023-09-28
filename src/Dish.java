@@ -1,4 +1,5 @@
- class Dish {
+//Keith
+class Dish {
     private String name;
     private int price;
     private int cookTime;
@@ -56,4 +57,8 @@
      void Description(){
     System.out.println( name + " is " + description);
     }
+    public String toString(){
+         return name + " $" + price + " " + cookTime + " minute cooktime, "  + description;
+    }
 }
+
