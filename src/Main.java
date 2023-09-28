@@ -12,6 +12,15 @@ public class Main {
         order1.serving(dish1.getName());
         order1.serving(dish2.getName());
 
-    }
+        CustomerService customerService = new CustomerService();
+        customerService.customer = "Abdi";
+        customerService.agent = "Keith";
+        customerService.discountCode = 123456789;
+        customerService.GiveApology();
 
-    }
+            }
+        }
+
+
+
+
