@@ -14,7 +14,10 @@ class Dish {
          this.description = description;
      }
 
-     public int getPrice() {
+    public static void forEach(Object o) {
+    }
+
+    public int getPrice() {
          return price;
      }
 
