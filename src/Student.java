@@ -3,7 +3,7 @@ public class Student {
     private String name;
     private int grade;
     private boolean LearnedEnough;
-    private int AssignmentsDone;
+    private  int AssignmentsDone;
 
 
     public Student(String name, int grade, boolean learnedEnough, int doAssignment) {

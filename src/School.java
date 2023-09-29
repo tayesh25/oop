@@ -7,7 +7,7 @@ public class School {
    private String name;
     private int grade;
    private boolean Understand;
-    private String assignment;
+    private String  assignment;
 
     public void School() {
     }
